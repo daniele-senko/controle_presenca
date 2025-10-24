@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from .pessoa import Pessoa
+from pessoa import Pessoa
 
 
 class Aluno(Pessoa):

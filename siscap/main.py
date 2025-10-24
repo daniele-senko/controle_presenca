@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-from siscap.domain.professor import Professor
-from siscap.domain.aluno import Aluno
-from siscap.infra.gerenciador_bd import GerenciadorBD
-from siscap.app.controlador_presenca import ControladorPresenca
+from professor import Professor
+from aluno import Aluno
+from gerenciador_bd import GerenciadorBD
+from controlador_presenca import ControladorPresenca
 
 
 def main() -> None:

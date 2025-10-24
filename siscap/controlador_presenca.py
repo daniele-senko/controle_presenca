@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from siscap.infra.gerenciador_bd import GerenciadorBD
+    from siscap.gerenciador_bd import GerenciadorBD
 
 
 class ControladorPresenca:

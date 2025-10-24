@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from siscap.domain.pessoa import Pessoa
+    from siscap.pessoa import Pessoa
 
 
 class GerenciadorBD:
@@ -97,8 +97,8 @@ class GerenciadorBD:
         turma = None
 
         # Importação local para evitar ciclo
-        from siscap.domain.professor import Professor
-        from siscap.domain.aluno import Aluno
+        from professor import Professor
+        from aluno import Aluno
 
         if isinstance(pessoa, Professor):
             tipo_pessoa = "Professor"
